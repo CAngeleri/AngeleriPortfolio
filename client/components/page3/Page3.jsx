@@ -344,8 +344,8 @@ const Page3 = ({ fullpageApi }) => {
           <div className="project">
             <h3>Coding Dojo | Full Stack Web Development Bootcamp</h3>
             <p>
-              Proficiency in three stacks: MERN, Python, and C#. Developed
-              numerous applications, ranging from mobile-friendly web pages to
+              Proficiency in three stacks: MERN (MongoDB, Express, React, Node.js), Python, and C#. Developed
+              numerous applications, ranging from mobile-friendly web pages, Full CRUD Applications to
               fully functional e-commerce websites, integrating various APIs and
               tools to enhance functionality and user experience.
             </p>
