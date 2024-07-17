@@ -12,7 +12,7 @@ const Slide2 = () => {
         <div className="row align-items-start justify-content-center w-100">
           <div className={`p-4 col-12 text-start glass-card mb-4 rounded-7 ${showDetails ? 'col-lg-6 me-lg-n5' : ''}`}>
             <div className="d-flex flex-column align-items-start">
-              <h1>DreamMarket 🍐</h1>
+              <h1>Dream Market 🍐</h1>
               <button
                 className="btn btn-block btn-outline-secondary mt-2"
                 onClick={() => setShowDetails(!showDetails)}
