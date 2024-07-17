@@ -42,9 +42,9 @@ const Slide3 = () => {
                   </a>
                 </p>
                 <p>
-                  <strong>Description: </strong>A Tinder clone designed to
+                  <strong>Description: </strong>A Tinder style application designed to
                   connect potential pet adopters with rescue animals in their
-                  area through a user-friendly interface and robust backend.
+                  area and connect to their community through a user-friendly interface and robust backend.
                 </p>
                 <p>
                   <strong>Project Highlights:</strong>
