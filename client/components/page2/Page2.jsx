@@ -60,7 +60,7 @@ const Page2 = ({ fullpageApi }) => {
                 world of ballet, where discipline, grace, and expression became
                 foundational elements of my character. Ballet taught me the
                 importance of perseverance and the beauty of telling a story
-                through movement. Transitioning from the stage to peoples homes,
+                through movement. Transitioning from the stage to people's homes,
                 and now the web, I explored my passion for design. Here, I have
                 found a new way to express creativity, crafting visually
                 engaging and meaningful designs. My work in design emphasized
