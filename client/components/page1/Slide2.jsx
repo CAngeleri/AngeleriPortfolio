@@ -41,10 +41,6 @@ const Slide2 = () => {
                       engaging colors.
                     </li>
                     <li>
-                      Integrated Stripe for seamless payment processing, enabling
-                      users to purchase products securely.
-                    </li>
-                    <li>
                       Implemented product management and display using Flask and
                       MySQL, ensuring efficient data handling and retrieval.
                     </li>

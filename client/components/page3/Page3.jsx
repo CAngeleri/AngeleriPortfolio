@@ -115,6 +115,16 @@ const Page3 = ({ fullpageApi }) => {
             <h3>PetMatch</h3>
             <hr />
             <p>
+              <strong>Link:</strong> |
+              <a
+                href="https://github.com/CAngeleri/PetMatchAPI"
+                target="_blank"
+              >
+                {" "}
+                GitHub
+              </a>
+            </p>
+            <p>
               A Tinder clone designed to connect potential pet adopters with
               rescue animals.
             </p>
@@ -150,6 +160,16 @@ const Page3 = ({ fullpageApi }) => {
             <h3>Dream Market</h3>
             <hr />
             <p>
+              <strong>Link:</strong> |
+              <a
+                href="https://github.com/CAngeleri/Angeleri_Dream_Market"
+                target="_blank"
+              >
+                {" "}
+                GitHub
+              </a>
+            </p>
+            <p>
               A Flask application focusing on frontend design and
               mobile-friendly user experience.
             </p>
@@ -159,10 +179,6 @@ const Page3 = ({ fullpageApi }) => {
                   Developed the frontend with a focus on mobile-friendly UX
                   using HTML, CSS, and JavaScript, featuring bright and engaging
                   colors.
-                </li>
-                <li>
-                  Integrated Stripe for seamless payment processing, enabling
-                  users to purchase products securely.
                 </li>
                 <li>
                   Implemented product management and display using Flask and
@@ -192,6 +208,22 @@ const Page3 = ({ fullpageApi }) => {
           <div className="project">
             <h3>Angeleri Art Museum</h3>
             <hr />
+            <p>
+              <strong>Links:</strong>{" "}
+              <a
+                href="https://cangeleri.github.io/Angeleri_Art_Museum/"
+                target="_blank"
+              >
+                Live Site
+              </a>{" "}
+              |{" "}
+              <a
+                href="https://github.com/CAngeleri/Angeleri_Art_Museum"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </p>
             <p>
               A single-page application showcasing artworks from the
               Metropolitan Museum of Art.
@@ -344,10 +376,11 @@ const Page3 = ({ fullpageApi }) => {
           <div className="project">
             <h3>Coding Dojo | Full Stack Web Development Bootcamp</h3>
             <p>
-              Proficiency in three stacks: MERN (MongoDB, Express, React, Node.js), Python, and C#. Developed
-              numerous applications, ranging from mobile-friendly web pages, Full CRUD Applications to
-              fully functional e-commerce websites, integrating various APIs and
-              tools to enhance functionality and user experience.
+              Proficiency in three stacks: MERN (MongoDB, Express, React,
+              Node.js), Python, and C#. Developed numerous applications, ranging
+              from mobile-friendly web pages, Full CRUD Applications to fully
+              functional e-commerce websites, integrating various APIs and tools
+              to enhance functionality and user experience.
             </p>
             <a
               href={CDC}
@@ -372,14 +405,14 @@ const Page3 = ({ fullpageApi }) => {
           <div className="p-5"></div>
         </div>
         <div>
-        <div className="navigation-arrows d-flex mb-5">
-          <button
-            onClick={() => fullpageApi.moveTo(2)}
-            className="arrow down"
-          >
-            &uarr; Back to Projects  &uarr;
-          </button>
-        </div>
+          <div className="navigation-arrows d-flex mb-5">
+            <button
+              onClick={() => fullpageApi.moveTo(2)}
+              className="arrow down"
+            >
+              &uarr; Back to Projects &uarr;
+            </button>
+          </div>
         </div>
       </div>
     </>
