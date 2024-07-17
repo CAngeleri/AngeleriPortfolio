@@ -42,10 +42,22 @@ const Page3 = ({ fullpageApi }) => {
                     href="https://www.linkedin.com/in/cameron-angeleri/"
                     target="_blank"
                   >
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1200px-LinkedIn_icon.svg.png"
+                      alt="LinkedIn"
+                      className="me-2"
+                      style={{ width: "24px", height: "24px" }}
+                    />
                     LinkedIn
                   </a>{" "}
                   |
                   <a href="https://github.com/CAngeleri" target="_blank">
+                    <img
+                      src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                      alt="Github"
+                      className="me-2 ml-2"
+                      style={{ width: "24px", height: "24px" }}
+                    />
                     GitHub
                   </a>
                 </p>
@@ -120,7 +132,12 @@ const Page3 = ({ fullpageApi }) => {
                 href="https://github.com/CAngeleri/PetMatchAPI"
                 target="_blank"
               >
-                {" "}
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                  alt="Github"
+                  className="me-2 ml-2"
+                  style={{ width: "24px", height: "24px" }}
+                />
                 GitHub
               </a>
             </p>
@@ -165,7 +182,12 @@ const Page3 = ({ fullpageApi }) => {
                 href="https://github.com/CAngeleri/Angeleri_Dream_Market"
                 target="_blank"
               >
-                {" "}
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                  alt="Github"
+                  className="me-2 ml-2"
+                  style={{ width: "24px", height: "24px" }}
+                />
                 GitHub
               </a>
             </p>
@@ -211,18 +233,25 @@ const Page3 = ({ fullpageApi }) => {
             <p>
               <strong>Links:</strong>{" "}
               <a
+                href="https://github.com/CAngeleri/Angeleri_Art_Museum"
+                target="_blank"
+              >
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                alt="Github"
+                className="me-2 ml-2"
+                style={{ width: "24px", height: "24px" }}
+              />
+                GitHub
+              </a>
+              {" "}
+              |{" "}
+              <a
                 href="https://cangeleri.github.io/Angeleri_Art_Museum/"
                 target="_blank"
               >
                 Live Site
               </a>{" "}
-              |{" "}
-              <a
-                href="https://github.com/CAngeleri/Angeleri_Art_Museum"
-                target="_blank"
-              >
-                GitHub
-              </a>
             </p>
             <p>
               A single-page application showcasing artworks from the

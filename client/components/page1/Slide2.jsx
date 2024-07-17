@@ -25,7 +25,14 @@ const Slide2 = () => {
                 <hr />
                 <p>
                   <strong>Link:</strong> | 
-                  <a href="https://github.com/CAngeleri/Angeleri_Dream_Market" target="_blank"> GitHub</a>
+                  <a href="https://github.com/CAngeleri/Angeleri_Dream_Market" target="_blank"> 
+                  <img
+                  src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                  alt="Github"
+                  className="me-2 ml-2"
+                  style={{ width: "24px", height: "24px" }}
+                />
+                GitHub</a>
                 </p>
                 <p>
                   <strong>Description: </strong>A Flask application focusing on

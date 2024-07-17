@@ -37,43 +37,56 @@ const Slide3 = () => {
                     href="https://github.com/CAngeleri/PetMatchAPI"
                     target="_blank"
                   >
-                    {" "}
+                    <img
+                      src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                      alt="Github"
+                      className="me-2 ml-2"
+                      style={{ width: "24px", height: "24px" }}
+                    />
                     GitHub
                   </a>
                 </p>
                 <p>
-                  <strong>Description: </strong>A Tinder style application designed to
-                  connect potential pet adopters with rescue animals in their
-                  area and connect to their community through a user-friendly interface and robust backend.
+                  <strong>Description: </strong>A Tinder style application
+                  designed to connect potential pet adopters with rescue animals
+                  in their area and connect to their community through a
+                  user-friendly interface and robust backend.
                 </p>
                 <p>
                   <strong>Project Highlights:</strong>
                   <ul>
                     <li>
-                    Developed a user registration system using Node.js and Express to handle authentication and authorization.
+                      Developed a user registration system using Node.js and
+                      Express to handle authentication and authorization.
                     </li>
                     <li>
-                    Integrated the application with the Rescue Group API to fetch and display information about adoptable pets in real-time.
-
+                      Integrated the application with the Rescue Group API to
+                      fetch and display information about adoptable pets in
+                      real-time.
                     </li>
                     <li>
-                    Implemented a dynamic New Pet Owner wall using MongoDB for database management, allowing users to post questions, comment on posts, and like posts, supporting many-to-many relationships.
-
+                      Implemented a dynamic New Pet Owner wall using MongoDB for
+                      database management, allowing users to post questions,
+                      comment on posts, and like posts, supporting many-to-many
+                      relationships.
                     </li>
                     <li>
-                    Designed and built a responsive front-end with React, enhancing user experience and engagement.
-
+                      Designed and built a responsive front-end with React,
+                      enhancing user experience and engagement.
                     </li>
                     <li>
-                    Optimized database queries and interactions to ensure fast data retrieval and smooth performance.
+                      Optimized database queries and interactions to ensure fast
+                      data retrieval and smooth performance.
                     </li>
                     <li>
-                    Collaborated with a team using GitHub for version control and Agile methodologies for project management.
+                      Collaborated with a team using GitHub for version control
+                      and Agile methodologies for project management.
                     </li>
                   </ul>
                 </p>
                 <p>
-                  <strong>Technologies:</strong> C#, Model-View-Controller (MVC) framework, Bootstrap5.0, Figma (Wireframing) MySql
+                  <strong>Technologies:</strong> C#, Model-View-Controller (MVC)
+                  framework, Bootstrap5.0, Figma (Wireframing) MySql
                 </p>
               </>
             )}

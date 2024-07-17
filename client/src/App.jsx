@@ -8,6 +8,7 @@ import LandingPage from "../components/landingPage/LandingPage";
 import Page1 from "../components/page1/Page1";
 import Page2 from "../components/page2/Page2";
 import Page3 from "../components/page3/Page3";
+import Home from "../src/assets/icons/Home.png";
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -32,7 +33,16 @@ const App = () => {
             {menuOpen && (
               <div className="menu">
                 <ul>
-                  <li onClick={() => fullpageApi.moveTo(1)}>Home</li>
+                  <li onClick={() => fullpageApi.moveTo(1)}>
+                  <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1200px-LinkedIn_icon.svg.png"
+                  alt="LinkedIn"
+                  className="me-2"
+                  style={{ width: "24px", height: "24px" }}
+                />
+                Home
+
+                  </li>
                   <li onClick={() => fullpageApi.moveTo(2)}>Projects</li>
                   <li onClick={() => fullpageApi.moveTo(3)}>About Me</li>
                   <li onClick={() => fullpageApi.moveTo(4)}>CV</li>

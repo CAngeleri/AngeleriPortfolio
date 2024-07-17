@@ -97,8 +97,15 @@ const Page2 = ({ fullpageApi }) => {
               <a
                 href="https://www.linkedin.com/in/cameron-angeleri/"
                 target="_blank"
-                className="btn btn-outline-secondary btn-block"
+                className="btn btn-outline-secondary btn-block d-flex align-items-center justify-content-center"
+                style={{ padding: "10px" }}
               >
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1200px-LinkedIn_icon.svg.png"
+                  alt="LinkedIn"
+                  className="me-2"
+                  style={{ width: "24px", height: "24px" }}
+                />
                 Let's Connect
               </a>
             </div>
@@ -109,18 +116,12 @@ const Page2 = ({ fullpageApi }) => {
 
       <div className="p-9"></div>
       <div>
-      <div className="navigation-arrows d-flex mb-5">
-          <button
-            onClick={() => fullpageApi.moveTo(2)}
-            className="arrow down"
-          >
+        <div className="navigation-arrows d-flex mb-5">
+          <button onClick={() => fullpageApi.moveTo(2)} className="arrow down">
             &uarr; Projects
           </button>
-          <button
-            onClick={() => fullpageApi.moveTo(4)}
-            className="arrow down"
-          >
-            CV  &darr;
+          <button onClick={() => fullpageApi.moveTo(4)} className="arrow down">
+            CV &darr;
           </button>
         </div>
       </div>

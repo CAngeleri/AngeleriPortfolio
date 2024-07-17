@@ -23,7 +23,12 @@ const Slide1 = () => {
             </video>
           </div>
           <div className="d-flex justify-content-center mt-4">
-            <div style={{ width: "75vw" }} className={`p-4 text-start glass-card ${showDetails ? '' : 'collapsed'}`}>
+            <div
+              style={{ width: "75vw" }}
+              className={`p-4 text-start glass-card ${
+                showDetails ? "" : "collapsed"
+              }`}
+            >
               <div className="d-flex flex-column align-items-center">
                 <h1 className="text-center">Angeleri Art Museum</h1>
                 <button
@@ -38,36 +43,62 @@ const Slide1 = () => {
                   <hr />
                   <p>
                     <strong>Links:</strong>{" "}
-                    <a href="https://cangeleri.github.io/Angeleri_Art_Museum/" target="_blank">
+                    <a
+                      href="https://cangeleri.github.io/Angeleri_Art_Museum/"
+                      target="_blank"
+                    >
                       Live Site
                     </a>{" "}
                     |{" "}
-                    <a href="https://github.com/CAngeleri/Angeleri_Art_Museum" target="_blank">
+                    <a
+                      href="https://github.com/CAngeleri/Angeleri_Art_Museum"
+                      target="_blank"
+                    >
+                      <img
+                        src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                        alt="Github"
+                        className="me-2 ml-2"
+                        style={{ width: "24px", height: "24px" }}
+                      />
                       GitHub
                     </a>
                   </p>
                   <p>
-                    <strong>Description: </strong>A single-page application (SPA)
-                    showcasing artworks from the Metropolitan Museum of Art, with a
-                    focus on accessible design.
+                    <strong>Description: </strong>A single-page application
+                    (SPA) showcasing artworks from the Metropolitan Museum of
+                    Art, with a focus on accessible design.
                   </p>
                   <p>
                     <strong>Project Highlights:</strong>
                     <ul>
-                      <li>Developed a responsive and interactive user interface using React and PrimeReact.</li>
-                      <li>Integrated with the Metropolitan Museum of Art API.</li>
+                      <li>
+                        Developed a responsive and interactive user interface
+                        using React and PrimeReact.
+                      </li>
+                      <li>
+                        Integrated with the Metropolitan Museum of Art API.
+                      </li>
                       <li>Implemented features for accessible design.</li>
                       <li>Deployed using GitHub Pages.</li>
-                      <li>Designed a high-contrast interface for enhanced user experience.</li>
+                      <li>
+                        Designed a high-contrast interface for enhanced user
+                        experience.
+                      </li>
                       <li>Created an interactive UI/UX for easy navigation.</li>
-                      <li>Utilized Agile methodologies for project management.</li>
-                      <li>Collaborated in sprint planning and retrospectives.</li>
-                      <li>Engaged in peer code reviews for workflow improvement.</li>
+                      <li>
+                        Utilized Agile methodologies for project management.
+                      </li>
+                      <li>
+                        Collaborated in sprint planning and retrospectives.
+                      </li>
+                      <li>
+                        Engaged in peer code reviews for workflow improvement.
+                      </li>
                     </ul>
                   </p>
                   <p>
-                    <strong>Technologies:</strong> React, PrimeReact, JavaScript,
-                    HTML, CSS, Node.js, GitHub Pages
+                    <strong>Technologies:</strong> React, PrimeReact,
+                    JavaScript, HTML, CSS, Node.js, GitHub Pages
                   </p>
                 </>
               )}
