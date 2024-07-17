@@ -104,6 +104,7 @@ const Page2 = ({ fullpageApi }) => {
             </div>
           </div>
         </div>
+        <div className="p-5"></div>
       </div>
 
       <div className="p-9"></div>

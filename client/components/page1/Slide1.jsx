@@ -74,6 +74,7 @@ const Slide1 = () => {
             </div>
           </div>
           <div className="p-4"></div>
+          <div className="p-4"></div>
         </div>
       </div>
     </div>
