@@ -1,0 +1,54 @@
+.section3 {
+  background-color: #bbc2f0;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.project,
+.experience,
+.education,
+.profile {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: hsla(0, 0%, 100%, 0.55); /* Semi-transparent background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px;
+  color: #9A58CD;
+  transition: all 0.3s ease-in-out;
+  width: 75%;
+  margin: auto;
+  margin-top: 10px;
+  backdrop-filter: blur(10px); /* Glass effect */
+}
+
+.project:hover,
+.experience:hover,
+.education:hover,
+.profile:hover {
+  box-shadow: 0 10px 20px #bbf0c7;
+  transform: translateY(-2px);
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.section3 .skills {
+  padding: 20px;
+  border: 2px solid #6c757d;
+  background: hsla(0, 0%, 100%, 0.2); /* Semi-transparent background */
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  backdrop-filter: blur(10px); 
+}
+
+.section3 .skills button {
+  margin-bottom: 15px;
+}
+
+.section3 .skills:hover {
+  box-shadow: 0px 4px 20px #bbf0c7;
+}

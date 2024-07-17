@@ -1,0 +1,39 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  overflow: hidden; 
+}
+
+.main-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.iconImg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.5s ease-in-out; 
+}
+
+.iconImg:hover, .landingText:hover{
+  transform: translate(-50%, -50%) scale(2);
+}
+
+
+.landingText{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: navy;
+  transform: translate(-50%, -50%);
+  transition: transform 0.5s ease-in-out; 
+}

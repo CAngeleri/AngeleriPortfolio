@@ -1,0 +1,103 @@
+.page-style1 {
+  background: #91736b;
+  color: #fbf0f4;
+}
+
+.mobile-video {
+  outline: none;
+  border: none;
+  object-fit: fill;
+  max-height: 700px;
+}
+.mobile-video-h {
+  border-radius: 8px;
+  max-width: 75vw;
+  outline: solid 5px black;
+}
+
+p {
+  font-size: large;
+}
+
+.page-style1 {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navigation-arrows {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.arrow {
+  background-color: #bf6dff; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+.arrow:hover {
+  background-color: #53306f; 
+}
+
+.iphone-container {
+  position: relative;
+  width: 100%; 
+  max-width: 375px; 
+  max-height: 700px; 
+  border-radius: 36px; 
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+  background-color: #D2BBF2;
+  outline: solid 5px black;
+}
+
+.glass-card {
+  background: hsla(0, 0%, 100%, 0.55); 
+  backdrop-filter: blur(10px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  border-radius: 15px; 
+  padding: 20px;
+  color: #53306f;
+}
+@media (min-width: 992px) {
+  .glass-card {
+    transition: all 0.3s ease;
+  }
+  .col-lg-6 .glass-card {
+    height: auto;
+  }
+}
+
+.glass-card h1,
+.glass-card p,
+.glass-card ul {
+  color: #53306f;
+}
+
+.glass-card hr {
+  border: 1px solid #ddd; 
+}
+
+.glass-card ul {
+  padding-left: 20px;
+}
+
+.glass-card a {
+  color: #53306f; 
+  text-decoration: none; 
+}
+
+.glass-card a:hover {
+  text-decoration: underline; 
+}

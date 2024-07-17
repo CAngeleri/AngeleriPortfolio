@@ -1,0 +1,34 @@
+.desktop-video {
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+  }
+  
+
+  .glass-card {
+    background: hsla(0, 0%, 100%, 0.55); 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 15px; 
+    padding: 20px; 
+}
+
+.glass-card h1, .glass-card p, .glass-card ul {
+    color: #B467EF; 
+}
+
+.glass-card hr {
+    border: 1px solid #864DB3; 
+}
+
+.glass-card ul {
+    padding-left: 20px; 
+}
+
+.glass-card a {
+    color: #C06EFF; 
+    text-decoration: none; 
+}
+
+.glass-card a:hover {
+    text-decoration: underline; 
+}
