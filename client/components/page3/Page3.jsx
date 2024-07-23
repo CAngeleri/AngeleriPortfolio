@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Page3.css";
-import Angeleri_Resume from "../../src/assets/Angeleri_Resume.pdf"
+import CV from "../../src/assets/Angeleri_Resume.pdf"
 import CDC from "../../src/assets/CodingDojo_Diploma.pdf";
 import Background from "../../src/assets/Background.jpg";
 import AngeleriIcon from "../../src/assets/icons/0.png";
