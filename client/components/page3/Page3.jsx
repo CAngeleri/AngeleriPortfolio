@@ -21,15 +21,6 @@ const Page3 = ({ fullpageApi }) => {
         <div className="slide" data-anchor="page3">
           <div className="container">
             <div className="row d-flex flex-column flex-md-row">
-              <div className="col-12 col-md-2 d-flex justify-content-center align-items-center">
-                <img
-                  onClick={() => fullpageApi.moveTo(1)}
-                  src={AngeleriIcon}
-                  alt=""
-                  className="img-fluid"
-                  style={{ maxHeight: "100px" }}
-                />
-              </div>
               <div className="col-12 col-md-10 text-md-left project mt-3 mt-md-0">
                 <h1 className="ml-md-4" onClick={() => fullpageApi.moveTo(1)}>
                   Cameron Angeleri | Full Stack Web Developer
@@ -45,7 +36,7 @@ const Page3 = ({ fullpageApi }) => {
                       src={AngeleriIcon}
                       alt=""
                       className="img-fluid"
-                      style={{ maxHeight: "100px" }}
+                      style={{ width: "24px", height: "24px" }}
                     />
                     Home
                   </a>{" "}
