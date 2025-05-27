@@ -26,7 +26,7 @@
 .experience:hover,
 .education:hover,
 .profile:hover {
-  box-shadow: 0 10px 20px rgb(124, 124, 248);
+  box-shadow: 0 10px 20px #F838FF;
   transform: translateY(-2px);
 }
 
