@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Page3.css";
-import CV from "../../src/assets/Angeleri_Resume.pdf"
+import CV from "../../src/assets/Angeleri_Resume.pdf";
 import CDC from "../../src/assets/CodingDojo_Diploma.pdf";
 import Background from "../../src/assets/Background.jpg";
 import AngeleriIcon from "../../src/assets/icons/0.png";
@@ -80,15 +80,30 @@ const Page3 = ({ fullpageApi }) => {
                   <h2>Profile</h2>
                   <hr />
                   <p className="text-left">
-                    Creative and analytical professional with a passion for
-                    designing intuitive user experiences and building robust,
-                    scalable web applications. Proficient in full stack
-                    development, blending strong design aesthetics with solid
-                    programming logic. Demonstrated ability to surpass goals and
-                    drive positive business outcomes. Skilled in project
-                    management, agile methodologies, and stakeholder
-                    collaboration. Committed to continuous learning and
-                    delivering high-quality, user-centric solutions.
+                    Accomplished full-stack engineer and technical project
+                    leader with a demonstrated history of designing and scaling
+                    high-performance data systems in fast-paced, dynamic
+                    environments. Proven ability to lead international,
+                    cross-functional teams to deliver robust, user-centric
+                    solutions that drive business growth and operational
+                    excellence. Expertise in architecting scalable backend
+                    services, automating complex workflows, and optimizing data
+                    pipelines to support machine learning initiatives and
+                    enhance product quality. Thrives equally in fast-moving
+                    startup cultures and structured, established company
+                    settings, adapting quickly to evolving priorities and
+                    driving cross-team collaboration to meet ambitious goals.
+                    Experienced working effectively across remote, hybrid, and
+                    in-person environments, leveraging strong communication and
+                    project management skills to maintain alignment and
+                    productivity. Skilled in Agile frameworks, strategic
+                    resource management, and stakeholder collaboration to align
+                    technical execution with organizational objectives.
+                    Proficient in JavaScript, Python, React, and Flask, with a
+                    strong focus on continuous process improvement, innovation,
+                    and fostering diverse and inclusive teams. Passionate about
+                    leveraging emerging technologies to build impactful,
+                    scalable products and engineering operations. .
                   </p>
                 </div>
               </div>
@@ -103,16 +118,38 @@ const Page3 = ({ fullpageApi }) => {
                         TypeScript, Python, C#, HTML5, CSS, SQL
                       </li>
                       <li>
-                        <strong>Libraries / Frameworks:</strong> Jinja2, React,
-                        jQuery, Flask, React, Express, Tailwind, Bootstrap
+                        <strong>Web Scraping:</strong> Scrapy (expert), Proxy
+                        Management (Teleport), Anti-Bot Evasion, Large-Scale
+                        Data Ingestion, Data Normalization
+                      </li>
+                      <li>
+                        <strong>Libraries / Frameworks:</strong> Jinja2,React,
+                        Flask, Node.js, Express, Tailwind CSS, Bootstrap
                       </li>
                       <li>
                         <strong>Databases:</strong> MySQL, NoSQL, MongoDB
                       </li>
                       <li>
-                        <strong>Tools:</strong> AJAX, REST API, JSON, Git,
-                        GitHub, VSCode, Figma, Canva, MySQL Workbench, Microsoft
-                        365, SalesForce
+                        <strong>Dev Tools & Platforms:</strong> GitHub, VSCode,
+                        AWS (S3, EC2), Notion, Slack, Google Workspace (Docs,
+                        Sheets, Drive)
+                      </li>
+                      <li>
+                        <strong>Design & Prototyping:</strong> Figma, Canva,
+                        Adobe Creative Suite
+                      </li>
+                      <li>
+                        <strong>CRM & Business Tools:</strong> Salesforce,
+                        Microsoft 365
+                      </li>
+                      <li>
+                        <strong>Data Structures & Optimization:</strong> Data
+                        Structures & Optimization: Bloom Filters (deduplication
+                        at scale), Caching Strategies, RESTful API Design
+                      </li>
+                      <li>
+                        <strong>Other:</strong> Agile/Scrum, Stripe Integration,
+                        SEO
                       </li>
                     </ul>
                   </p>
@@ -124,50 +161,38 @@ const Page3 = ({ fullpageApi }) => {
           <h2 className="mt-5 text-center">Technical Projects</h2>
           <hr />
           <div className="project">
-            <h3>PetMatch</h3>
+            <h3>Loti Web Scraping Platform</h3>
             <hr />
             <p>
-              <strong>Link:</strong> |
-              <a
-                href="https://github.com/CAngeleri/PetMatchAPI"
-                target="_blank"
-              >
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-                  alt="Github"
-                  className="me-2 ml-2"
-                  style={{ width: "24px", height: "24px" }}
-                />
-                GitHub
-              </a>
+              <strong>Link:</strong> | Private Repo
             </p>
-            <p>
-              A Tinder clone designed to connect potential pet adopters with
-              rescue animals.
-            </p>
+            <p>Scalable Data Pipeline & Automation System</p>
             <p>
               <ul>
                 <li>
-                  Developed a user registration system using Node.js and Express
-                  to handle authentication and authorization.
+                  Engineered and scaled ingestion pipelines 10× to process over
+                  25M new items/day across 200+ domains. Automated scheduling
+                  and scraping cycles using custom job management scripts and
+                  cron-based orchestration.
                 </li>
                 <li>
-                  Implemented a dynamic New Pet Owner wall using MongoDB for
-                  database management, allowing users to post questions, comment
-                  on posts, and like posts, supporting many-to-many
-                  relationships.
+                  Led an international engineering team to standardize anti-bot
+                  evasion, proxy rotation, and version-controlled spider
+                  strategies.
                 </li>
                 <li>
-                  Designed and built a responsive front-end with React,
-                  enhancing user experience and engagement.
+                  Integrated Bloom filters for scalable deduplication and
+                  normalization of raw data for downstream machine learning.
                 </li>
                 <li>
-                  Optimized database queries and interactions to ensure fast
-                  data retrieval and smooth performance.
+                  Built robust error handling, logging, and retry logic to
+                  ensure continuous uptime despite dynamic site changes and rate
+                  limits.
                 </li>
                 <li>
-                  Collaborated with a team using GitHub for version control and
-                  Agile methodologies for project management.
+                  Established collaborative workflows across time zones using
+                  GitHub (version control), Slack (team sync), Notion
+                  (documentation), and Google Sheets (data QA tracking).
                 </li>
               </ul>
             </p>
@@ -236,15 +261,14 @@ const Page3 = ({ fullpageApi }) => {
                 href="https://github.com/CAngeleri/Angeleri_Art_Museum"
                 target="_blank"
               >
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-                alt="Github"
-                className="me-2 ml-2"
-                style={{ width: "24px", height: "24px" }}
-              />
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                  alt="Github"
+                  className="me-2 ml-2"
+                  style={{ width: "24px", height: "24px" }}
+                />
                 GitHub
-              </a>
-              {" "}
+              </a>{" "}
               |{" "}
               <a
                 href="https://cangeleri.github.io/Angeleri_Art_Museum/"
