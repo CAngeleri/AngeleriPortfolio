@@ -35,12 +35,12 @@ const Page3 = ({ fullpageApi }) => {
                       onClick={() => fullpageApi.moveTo(1)}
                       src={AngeleriIcon}
                       alt=""
-                      className="img-fluid"
+                      className="img-fluid mr-2"
                       style={{ width: "24px", height: "24px" }}
                     />
                     Home
                   </a>{" "}
-                  |
+                  | 
                   <a
                     href="https://www.linkedin.com/in/cameron-angeleri/"
                     target="_blank"
