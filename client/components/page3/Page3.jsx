@@ -28,7 +28,7 @@ const Page3 = ({ fullpageApi }) => {
                 <p className="ml-md-4 text-center">
                   +1 509 995 0242 | Seattle, WA 98109 | cam.angeleri@gmail.com
                 </p>
-                <p className="ml-md-4 mt-0 text-center">
+                <p className="ml-md-4 mt-0 text-center mb-0">
                   <a
                     onClick={() => fullpageApi.moveTo(1)}
                   >
