@@ -30,13 +30,14 @@ const Page3 = ({ fullpageApi }) => {
                 </p>
                 <p className="ml-md-4 mt-0">
                   <a
+                    onClick={() => fullpageApi.moveTo(1)}
                   >
                     <img
                       onClick={() => fullpageApi.moveTo(1)}
                       src={AngeleriIcon}
                       alt=""
                       className="img-fluid mr-2"
-                      style={{ width: "24px", height: "24px" }}
+                      style={{ width: "50px", height: "50px" }}
                     />
                     Home
                   </a>{" "}
@@ -48,7 +49,7 @@ const Page3 = ({ fullpageApi }) => {
                     <img
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1200px-LinkedIn_icon.svg.png"
                       alt="LinkedIn"
-                      className="me-2"
+                      className="me-2 ml-2"
                       style={{ width: "24px", height: "24px" }}
                     />
                     LinkedIn
