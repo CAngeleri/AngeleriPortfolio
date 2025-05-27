@@ -4,7 +4,7 @@ import "./Page3.css";
 import CV from "../../src/assets/Angeleri_Resume.pdf";
 import CDC from "../../src/assets/CodingDojo_Diploma.pdf";
 import Background from "../../src/assets/BackgroundMain.jpg";
-import AngeleriIcon from "../../src/assets/icons/0.png";
+import AngeleriIcon from "../../src/assets/icons/logo_purple.png";
 
 const Page3 = ({ fullpageApi }) => {
   return (
