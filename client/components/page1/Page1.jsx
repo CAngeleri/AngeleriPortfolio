@@ -4,7 +4,7 @@ import Slide1 from "./Slide1";
 import Slide2 from "./Slide2";
 import Slide3 from "./Slide3";
 
-import Background from "../../src/assets/Background.jpg"; 
+import Background from "../../src/assets/BackgroundMain.jpg"; 
 
 const Page1 = ({ fullpageApi }) => {
   return (
