@@ -320,38 +320,41 @@ const Page3 = ({ fullpageApi }) => {
           <div className="experience">
             <h3>Department Head of Web Scraping & Backend Engineer</h3>
             <p>Loti | Remote | March 2024 – Present</p>
-            <ul>
-              <li>
-                Led the Web Scraping department, managing a cross-functional
-                international engineering team across time zones.
-              </li>
-              <li>
-                Architected and scaled web ingestion pipelines from 2.5M to 25M+
-                items/day using Scrapy, Teleport, and AWS Lambda.
-              </li>
-              <li>
-                Built modular data extraction systems with Bloom filters for
-                deduplication, reducing redundancy by over 80%.
-              </li>
-              <li>
-                Automated scheduling, deployment, and health monitoring of
-                spiders, improving uptime and delivery efficiency.
-              </li>
-              <li>
-                Collaborated directly with the CTO and Product teams to shape
-                roadmap priorities and deliver feature-complete data products on
-                schedule.
-              </li>
-              <li>
-                Maintained robust documentation and onboarding guides to
-                accelerate new engineer ramp-up time by 50%.
-              </li>
-            </ul>
+            <p>
+              <ul>
+                <li>
+                  Led the Web Scraping department, managing a cross-functional
+                  international engineering team across time zones.
+                </li>
+                <li>
+                  Architected and scaled web ingestion pipelines from 2.5M to 25M+
+                  items/day using Scrapy, Teleport, and AWS Lambda.
+                </li>
+                <li>
+                  Built modular data extraction systems with Bloom filters for
+                  deduplication, reducing redundancy by over 80%.
+                </li>
+                <li>
+                  Automated scheduling, deployment, and health monitoring of
+                  spiders, improving uptime and delivery efficiency.
+                </li>
+                <li>
+                  Collaborated directly with the CTO and Product teams to shape
+                  roadmap priorities and deliver feature-complete data products on
+                  schedule.
+                </li>
+                <li>
+                  Maintained robust documentation and onboarding guides to
+                  accelerate new engineer ramp-up time by 50%.
+                </li>
+              </ul>
+            </p>
           </div>
 
           <div className="experience">
             <h3>Sales Development Representative</h3>
             <p>DocuSign | Seattle, WA | August 2023 – March 2024</p>
+            <p>
             <ul>
               <li>
                 Generated qualified sales opportunities through strategic
@@ -372,11 +375,14 @@ const Page3 = ({ fullpageApi }) => {
                 data-informed decision-making and sales forecasting accuracy.
               </li>
             </ul>
+            </p>
           </div>
 
           <div className="experience">
             <h3>Trauma-Informed Yoga Instructor</h3>
             <p>Self-Employed | Seattle, WA | July 2022 – Present</p>
+            <p>
+
             <ul>
               <li>
                 Founded and scaled a wellness brand, launching a high-traffic
@@ -397,11 +403,14 @@ const Page3 = ({ fullpageApi }) => {
                 goals.
               </li>
             </ul>
+            </p>
           </div>
 
           <div className="experience">
-            <h3>Lead B2B Account Manager</h3>
+            <h3>Lead Business-to-Business Account Manager</h3>
             <p>Williams Sonoma Inc. | Seattle, WA | January 2020 – July 2022</p>
+            <p>
+
             <ul>
               <li>
                 Drove a $5M rebranding initiative in collaboration with
@@ -425,6 +434,7 @@ const Page3 = ({ fullpageApi }) => {
                 expanding market reach and diversifying revenue streams.
               </li>
             </ul>
+            </p>
           </div>
 
           <div className="experience">
@@ -432,6 +442,8 @@ const Page3 = ({ fullpageApi }) => {
             <p>
               Williams Sonoma Inc. | Seattle, WA | March 2018 – January 2020
             </p>
+            <p>
+
             <ul>
               <li>
                 Managed $1.2M in annual retail sales volume, surpassing KPIs and
@@ -454,6 +466,7 @@ const Page3 = ({ fullpageApi }) => {
                 meet high-end residential and commercial client needs.
               </li>
             </ul>
+            </p>
           </div>
 
           <h2 className="mt-5 text-center">Certifications</h2>

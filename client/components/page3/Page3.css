@@ -11,8 +11,8 @@
   margin-bottom: 20px;
   padding: 15px;
   background: hsla(0, 0%, 100%, 0.55); /* Semi-transparent background */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
-  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  border-radius: 15px; 
   padding: 20px;
   color: #9A58CD;
   transition: all 0.3s ease-in-out;
@@ -26,7 +26,7 @@
 .experience:hover,
 .education:hover,
 .profile:hover {
-  box-shadow: 0 10px 20px darkblue;
+  box-shadow: 0 10px 20px rgb(124, 124, 248);
   transform: translateY(-2px);
 }
 
