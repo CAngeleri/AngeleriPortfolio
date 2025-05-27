@@ -321,7 +321,7 @@ const Page3 = ({ fullpageApi }) => {
           <h2 className="mt-5 text-center">Professional Experience</h2>
           <hr />
           <div className="experience">
-            <h3>Department Head of Web Scraping & Backend Engineer</h3>
+            <h3>Backend Engineer Intern, promoted to Head of Adult Content Web Scraping</h3>
             <p>Loti | Remote | March 2024 – Present</p>
             <p>
               <ul>
