@@ -31,13 +31,25 @@ const Page3 = ({ fullpageApi }) => {
                 />
               </div>
               <div className="col-12 col-md-10 text-md-left project mt-3 mt-md-0">
-                <h1 className="ml-md-4">
+                <h1 className="ml-md-4" onClick={() => fullpageApi.moveTo(1)}>
                   Cameron Angeleri | Full Stack Web Developer
                 </h1>
                 <p className="ml-md-4">
                   +1 509 995 0242 | Seattle, WA 98109 | cam.angeleri@gmail.com
                 </p>
                 <p className="ml-md-4 mt-0">
+                  <a
+                  >
+                    <img
+                      onClick={() => fullpageApi.moveTo(1)}
+                      src={AngeleriIcon}
+                      alt=""
+                      className="img-fluid"
+                      style={{ maxHeight: "100px" }}
+                    />
+                    Home
+                  </a>{" "}
+                  |
                   <a
                     href="https://www.linkedin.com/in/cameron-angeleri/"
                     target="_blank"
@@ -327,8 +339,8 @@ const Page3 = ({ fullpageApi }) => {
                   international engineering team across time zones.
                 </li>
                 <li>
-                  Architected and scaled web ingestion pipelines from 2.5M to 25M+
-                  items/day using Scrapy, Teleport, and AWS Lambda.
+                  Architected and scaled web ingestion pipelines from 2.5M to
+                  25M+ items/day using Scrapy, Teleport, and AWS Lambda.
                 </li>
                 <li>
                   Built modular data extraction systems with Bloom filters for
@@ -340,8 +352,8 @@ const Page3 = ({ fullpageApi }) => {
                 </li>
                 <li>
                   Collaborated directly with the CTO and Product teams to shape
-                  roadmap priorities and deliver feature-complete data products on
-                  schedule.
+                  roadmap priorities and deliver feature-complete data products
+                  on schedule.
                 </li>
                 <li>
                   Maintained robust documentation and onboarding guides to
@@ -355,26 +367,26 @@ const Page3 = ({ fullpageApi }) => {
             <h3>Sales Development Representative</h3>
             <p>DocuSign | Seattle, WA | August 2023 – March 2024</p>
             <p>
-            <ul>
-              <li>
-                Generated qualified sales opportunities through strategic
-                outreach and client engagement in a hybrid remote/in-office
-                setting.
-              </li>
-              <li>
-                Led discovery calls and delivered tailored product
-                presentations, accelerating sales pipeline growth and client
-                acquisition.
-              </li>
-              <li>
-                Collaborated cross-functionally with Marketing and Product to
-                align sales messaging and enhance lead conversion rates.
-              </li>
-              <li>
-                Maintained detailed records in Salesforce CRM, driving
-                data-informed decision-making and sales forecasting accuracy.
-              </li>
-            </ul>
+              <ul>
+                <li>
+                  Generated qualified sales opportunities through strategic
+                  outreach and client engagement in a hybrid remote/in-office
+                  setting.
+                </li>
+                <li>
+                  Led discovery calls and delivered tailored product
+                  presentations, accelerating sales pipeline growth and client
+                  acquisition.
+                </li>
+                <li>
+                  Collaborated cross-functionally with Marketing and Product to
+                  align sales messaging and enhance lead conversion rates.
+                </li>
+                <li>
+                  Maintained detailed records in Salesforce CRM, driving
+                  data-informed decision-making and sales forecasting accuracy.
+                </li>
+              </ul>
             </p>
           </div>
 
@@ -382,27 +394,26 @@ const Page3 = ({ fullpageApi }) => {
             <h3>Trauma-Informed Yoga Instructor</h3>
             <p>Self-Employed | Seattle, WA | July 2022 – Present</p>
             <p>
-
-            <ul>
-              <li>
-                Founded and scaled a wellness brand, launching a high-traffic
-                e-commerce platform and achieving profitability within six
-                months.
-              </li>
-              <li>
-                Designed and facilitated trauma-informed yoga programs focused
-                on resilience, emotional regulation, and mindfulness.
-              </li>
-              <li>
-                Integrated cloud-based systems for automated client onboarding
-                and session scheduling, improving user experience.
-              </li>
-              <li>
-                Delivered personalized coaching to clients, fostering
-                sustainable progress toward mental and physical well-being
-                goals.
-              </li>
-            </ul>
+              <ul>
+                <li>
+                  Founded and scaled a wellness brand, launching a high-traffic
+                  e-commerce platform and achieving profitability within six
+                  months.
+                </li>
+                <li>
+                  Designed and facilitated trauma-informed yoga programs focused
+                  on resilience, emotional regulation, and mindfulness.
+                </li>
+                <li>
+                  Integrated cloud-based systems for automated client onboarding
+                  and session scheduling, improving user experience.
+                </li>
+                <li>
+                  Delivered personalized coaching to clients, fostering
+                  sustainable progress toward mental and physical well-being
+                  goals.
+                </li>
+              </ul>
             </p>
           </div>
 
@@ -410,30 +421,30 @@ const Page3 = ({ fullpageApi }) => {
             <h3>Lead Business-to-Business Account Manager</h3>
             <p>Williams Sonoma Inc. | Seattle, WA | January 2020 – July 2022</p>
             <p>
-
-            <ul>
-              <li>
-                Drove a $5M rebranding initiative in collaboration with
-                Marketing, Visual Merchandising, and Operations teams.
-              </li>
-              <li>
-                Led a team of 10 associates, providing mentorship and strategic
-                guidance that resulted in a 150% YoY B2B revenue increase.
-              </li>
-              <li>
-                Oversaw a portfolio of 500+ business accounts, delivering
-                tailored design solutions and sustaining client satisfaction
-                rates over 95%.
-              </li>
-              <li>
-                Implemented agile workflows and daily stand-ups to optimize
-                internal communication and project delivery timelines.
-              </li>
-              <li>
-                Championed remote selling solutions during the pandemic,
-                expanding market reach and diversifying revenue streams.
-              </li>
-            </ul>
+              <ul>
+                <li>
+                  Drove a $5M rebranding initiative in collaboration with
+                  Marketing, Visual Merchandising, and Operations teams.
+                </li>
+                <li>
+                  Led a team of 10 associates, providing mentorship and
+                  strategic guidance that resulted in a 150% YoY B2B revenue
+                  increase.
+                </li>
+                <li>
+                  Oversaw a portfolio of 500+ business accounts, delivering
+                  tailored design solutions and sustaining client satisfaction
+                  rates over 95%.
+                </li>
+                <li>
+                  Implemented agile workflows and daily stand-ups to optimize
+                  internal communication and project delivery timelines.
+                </li>
+                <li>
+                  Championed remote selling solutions during the pandemic,
+                  expanding market reach and diversifying revenue streams.
+                </li>
+              </ul>
             </p>
           </div>
 
@@ -443,29 +454,28 @@ const Page3 = ({ fullpageApi }) => {
               Williams Sonoma Inc. | Seattle, WA | March 2018 – January 2020
             </p>
             <p>
-
-            <ul>
-              <li>
-                Managed $1.2M in annual retail sales volume, surpassing KPIs and
-                contributing to consistent regional market share growth.
-              </li>
-              <li>
-                Designed and executed promotional campaigns, boosting store
-                traffic and increasing average transaction size by 10%.
-              </li>
-              <li>
-                Created visual merchandising and branded content using Adobe
-                Creative Suite, enhancing online engagement by 7%.
-              </li>
-              <li>
-                Recognized nationally as a top-performing stylist, with 1,200+
-                five-star client reviews and leadership accolades.
-              </li>
-              <li>
-                Provided in-home design consultations, tailoring solutions to
-                meet high-end residential and commercial client needs.
-              </li>
-            </ul>
+              <ul>
+                <li>
+                  Managed $1.2M in annual retail sales volume, surpassing KPIs
+                  and contributing to consistent regional market share growth.
+                </li>
+                <li>
+                  Designed and executed promotional campaigns, boosting store
+                  traffic and increasing average transaction size by 10%.
+                </li>
+                <li>
+                  Created visual merchandising and branded content using Adobe
+                  Creative Suite, enhancing online engagement by 7%.
+                </li>
+                <li>
+                  Recognized nationally as a top-performing stylist, with 1,200+
+                  five-star client reviews and leadership accolades.
+                </li>
+                <li>
+                  Provided in-home design consultations, tailoring solutions to
+                  meet high-end residential and commercial client needs.
+                </li>
+              </ul>
             </p>
           </div>
 
