@@ -89,21 +89,23 @@ const Page3 = ({ fullpageApi }) => {
                     excellence. Expertise in architecting scalable backend
                     services, automating complex workflows, and optimizing data
                     pipelines to support machine learning initiatives and
-                    enhance product quality. Thrives equally in fast-moving
-                    startup cultures and structured, established company
-                    settings, adapting quickly to evolving priorities and
-                    driving cross-team collaboration to meet ambitious goals.
-                    Experienced working effectively across remote, hybrid, and
-                    in-person environments, leveraging strong communication and
-                    project management skills to maintain alignment and
-                    productivity. Skilled in Agile frameworks, strategic
-                    resource management, and stakeholder collaboration to align
-                    technical execution with organizational objectives.
-                    Proficient in JavaScript, Python, React, and Flask, with a
-                    strong focus on continuous process improvement, innovation,
-                    and fostering diverse and inclusive teams. Passionate about
-                    leveraging emerging technologies to build impactful,
-                    scalable products and engineering operations. .
+                    enhance product quality.
+                    <br></br>
+                    Thrives equally in fast-moving startup cultures and
+                    structured, established company settings, adapting quickly
+                    to evolving priorities and driving cross-team collaboration
+                    to meet ambitious goals. Experienced working effectively
+                    across remote, hybrid, and in-person environments,
+                    leveraging strong communication and project management
+                    skills to maintain alignment and productivity. Skilled in
+                    Agile frameworks, strategic resource management, and
+                    stakeholder collaboration to align technical execution with
+                    organizational objectives. Proficient in JavaScript, Python,
+                    React, and Flask, with a strong focus on continuous process
+                    improvement, innovation, and fostering diverse and inclusive
+                    teams. Passionate about leveraging emerging technologies to
+                    build impactful, scalable products and engineering
+                    operations. .
                   </p>
                 </div>
               </div>
@@ -316,112 +318,142 @@ const Page3 = ({ fullpageApi }) => {
           <h2 className="mt-5 text-center">Professional Experience</h2>
           <hr />
           <div className="experience">
-            <h3>Trauma-Informed Yoga Instructor</h3>
-            <p>Self-Employed | July 2022 - Present</p>
-            <p>
-              <ul>
-                <li>
-                  Designed and launched a high-traffic e-commerce website,
-                  establishing a profitable business within six months.
-                </li>
-                <li>
-                  Facilitated trauma-informed yoga sessions, promoting healing
-                  and mindfulness.
-                </li>
-                <li>
-                  Leveraged a cloud-based client management system to streamline
-                  communication and automate onboarding processes.
-                </li>
-                <li>
-                  Worked individually with students to enhance their motivation
-                  and performance goals.
-                </li>
-              </ul>
-            </p>
+            <h3>Department Head of Web Scraping & Backend Engineer</h3>
+            <p>Loti | Remote | March 2024 – Present</p>
+            <ul>
+              <li>
+                Led the Web Scraping department, managing a cross-functional
+                international engineering team across time zones.
+              </li>
+              <li>
+                Architected and scaled web ingestion pipelines from 2.5M to 25M+
+                items/day using Scrapy, Teleport, and AWS Lambda.
+              </li>
+              <li>
+                Built modular data extraction systems with Bloom filters for
+                deduplication, reducing redundancy by over 80%.
+              </li>
+              <li>
+                Automated scheduling, deployment, and health monitoring of
+                spiders, improving uptime and delivery efficiency.
+              </li>
+              <li>
+                Collaborated directly with the CTO and Product teams to shape
+                roadmap priorities and deliver feature-complete data products on
+                schedule.
+              </li>
+              <li>
+                Maintained robust documentation and onboarding guides to
+                accelerate new engineer ramp-up time by 50%.
+              </li>
+            </ul>
           </div>
 
           <div className="experience">
             <h3>Sales Development Representative</h3>
-            <p>DocuSign | Seattle, WA | August 2023 - March 2024</p>
-            <p>
-              <ul>
-                <li>
-                  Engaged in hybrid collaboration, effectively working both
-                  remotely and in-person to drive sales initiatives.
-                </li>
-                <li>
-                  Managed schedules and coordinated with cross-functional teams
-                  in an agile work environment.
-                </li>
-                <li>
-                  Spearheaded the development and delivery of compelling sales
-                  presentations, leading to increased customer engagement and
-                  acquisition.
-                </li>
-                <li>
-                  Utilized CRM tools to manage leads, track progress, and report
-                  on sales metrics.
-                </li>
-              </ul>
-            </p>
+            <p>DocuSign | Seattle, WA | August 2023 – March 2024</p>
+            <ul>
+              <li>
+                Generated qualified sales opportunities through strategic
+                outreach and client engagement in a hybrid remote/in-office
+                setting.
+              </li>
+              <li>
+                Led discovery calls and delivered tailored product
+                presentations, accelerating sales pipeline growth and client
+                acquisition.
+              </li>
+              <li>
+                Collaborated cross-functionally with Marketing and Product to
+                align sales messaging and enhance lead conversion rates.
+              </li>
+              <li>
+                Maintained detailed records in Salesforce CRM, driving
+                data-informed decision-making and sales forecasting accuracy.
+              </li>
+            </ul>
           </div>
 
           <div className="experience">
-            <h3>Lead Business-to-Business Account Manager</h3>
-            <p>Williams Sonoma INC | January 2020 - July 2022</p>
-            <p>
-              <ul>
-                <li>
-                  Led a $5M corporate rebrand initiative, collaborating with
-                  cross-functional teams for seamless execution.
-                </li>
-                <li>
-                  Conducted daily stand-up meetings and training sessions,
-                  enhancing team productivity and client experience.
-                </li>
-                <li>
-                  Mentored a team of 10 sales associates, resulting in a 150%
-                  increase in B2B sales.
-                </li>
-                <li>
-                  Developed and implemented remote selling strategies, expanding
-                  the customer base and increasing sales.
-                </li>
-                <li>
-                  Managed a portfolio of 500+ client projects, ensuring high
-                  satisfaction and retention rates.
-                </li>
-              </ul>
-            </p>
+            <h3>Trauma-Informed Yoga Instructor</h3>
+            <p>Self-Employed | Seattle, WA | July 2022 – Present</p>
+            <ul>
+              <li>
+                Founded and scaled a wellness brand, launching a high-traffic
+                e-commerce platform and achieving profitability within six
+                months.
+              </li>
+              <li>
+                Designed and facilitated trauma-informed yoga programs focused
+                on resilience, emotional regulation, and mindfulness.
+              </li>
+              <li>
+                Integrated cloud-based systems for automated client onboarding
+                and session scheduling, improving user experience.
+              </li>
+              <li>
+                Delivered personalized coaching to clients, fostering
+                sustainable progress toward mental and physical well-being
+                goals.
+              </li>
+            </ul>
+          </div>
+
+          <div className="experience">
+            <h3>Lead B2B Account Manager</h3>
+            <p>Williams Sonoma Inc. | Seattle, WA | January 2020 – July 2022</p>
+            <ul>
+              <li>
+                Drove a $5M rebranding initiative in collaboration with
+                Marketing, Visual Merchandising, and Operations teams.
+              </li>
+              <li>
+                Led a team of 10 associates, providing mentorship and strategic
+                guidance that resulted in a 150% YoY B2B revenue increase.
+              </li>
+              <li>
+                Oversaw a portfolio of 500+ business accounts, delivering
+                tailored design solutions and sustaining client satisfaction
+                rates over 95%.
+              </li>
+              <li>
+                Implemented agile workflows and daily stand-ups to optimize
+                internal communication and project delivery timelines.
+              </li>
+              <li>
+                Championed remote selling solutions during the pandemic,
+                expanding market reach and diversifying revenue streams.
+              </li>
+            </ul>
           </div>
 
           <div className="experience">
             <h3>Home Stylist / Key Holder</h3>
-            <p>Williams Sonoma INC | March 2018 - January 2020</p>
             <p>
-              <ul>
-                <li>
-                  Implemented a strategic merchandising plan, increasing
-                  department sales by 15%.
-                </li>
-                <li>
-                  Managed $1.2M in annual retail volume, contributing to a 2%
-                  market growth year over year.
-                </li>
-                <li>
-                  Developed promotional campaigns, driving foot traffic and
-                  increasing average transaction value by 10%.
-                </li>
-                <li>
-                  Created visually captivating marketing materials using Adobe
-                  Creative Suite, boosting social media traffic by 7%.
-                </li>
-                <li>
-                  Received over 1,200 5-star client reviews and national
-                  recognition as a top retail contributor.
-                </li>
-              </ul>
+              Williams Sonoma Inc. | Seattle, WA | March 2018 – January 2020
             </p>
+            <ul>
+              <li>
+                Managed $1.2M in annual retail sales volume, surpassing KPIs and
+                contributing to consistent regional market share growth.
+              </li>
+              <li>
+                Designed and executed promotional campaigns, boosting store
+                traffic and increasing average transaction size by 10%.
+              </li>
+              <li>
+                Created visual merchandising and branded content using Adobe
+                Creative Suite, enhancing online engagement by 7%.
+              </li>
+              <li>
+                Recognized nationally as a top-performing stylist, with 1,200+
+                five-star client reviews and leadership accolades.
+              </li>
+              <li>
+                Provided in-home design consultations, tailoring solutions to
+                meet high-end residential and commercial client needs.
+              </li>
+            </ul>
           </div>
 
           <h2 className="mt-5 text-center">Certifications</h2>
