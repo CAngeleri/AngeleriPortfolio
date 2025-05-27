@@ -22,13 +22,13 @@ const Page3 = ({ fullpageApi }) => {
           <div className="container">
             <div className="row d-flex flex-column flex-md-row">
               <div className="col-12 col-md-10 text-md-left project mt-3 mt-md-0">
-                <h1 className="ml-md-4" onClick={() => fullpageApi.moveTo(1)}>
+                <h1 className="ml-md-4 text-center " onClick={() => fullpageApi.moveTo(1)}>
                   Cameron Angeleri | Full Stack Web Developer
                 </h1>
-                <p className="ml-md-4">
+                <p className="ml-md-4 text-center">
                   +1 509 995 0242 | Seattle, WA 98109 | cam.angeleri@gmail.com
                 </p>
-                <p className="ml-md-4 mt-0">
+                <p className="ml-md-4 mt-0 text-center">
                   <a
                     onClick={() => fullpageApi.moveTo(1)}
                   >
@@ -36,7 +36,7 @@ const Page3 = ({ fullpageApi }) => {
                       onClick={() => fullpageApi.moveTo(1)}
                       src={AngeleriIcon}
                       alt=""
-                      className="img-fluid mr-2"
+                      className="img-fluid"
                       style={{ width: "50px", height: "50px" }}
                     />
                     Home
